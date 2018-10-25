@@ -8,16 +8,10 @@ import SecondPage from './screens/SecondPage';
 export const Root = createStackNavigator(
     {
         FirstPage: {
-            screen: FirstPage,
-            navigationOptions: {
-                gesturesEnabled: false,
-            }
+            screen: FirstPage
         },
         SecondPage: {
-            screen: SecondPage,
-            navigationOptions: {
-                gesturesEnabled: false,
-            }
+            screen: SecondPage
         }
     }
 );
